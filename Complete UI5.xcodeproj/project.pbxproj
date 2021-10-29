@@ -17,6 +17,10 @@
 		04657007272BB48C006EFFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04656FDD272BB48B006EFFBA /* ContentView.swift */; };
 		04657008272BB48C006EFFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04656FDE272BB48C006EFFBA /* Assets.xcassets */; };
 		04657009272BB48C006EFFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04656FDE272BB48C006EFFBA /* Assets.xcassets */; };
+		0465701A272BCE20006EFFBA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04657019272BCE20006EFFBA /* Home.swift */; };
+		0465701C272BDA52006EFFBA /* Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465701B272BDA52006EFFBA /* Corners.swift */; };
+		0465701E272BE570006EFFBA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465701D272BE570006EFFBA /* CardView.swift */; };
+		04657021272BEB33006EFFBA /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04657020272BEB33006EFFBA /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		04656FFC272BB48C006EFFBA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04657000272BB48C006EFFBA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		04657002272BB48C006EFFBA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		04657019272BCE20006EFFBA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0465701B272BDA52006EFFBA /* Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corners.swift; sourceTree = "<group>"; };
+		0465701D272BE570006EFFBA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		04657020272BEB33006EFFBA /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		04656FDB272BB48B006EFFBA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0465701F272BEB20006EFFBA /* Model */,
+				04657018272BCE12006EFFBA /* View */,
 				04656FDC272BB48B006EFFBA /* Complete_UI5App.swift */,
 				04656FDD272BB48B006EFFBA /* ContentView.swift */,
 				04656FDE272BB48C006EFFBA /* Assets.xcassets */,
@@ -139,6 +149,24 @@
 				04657002272BB48C006EFFBA /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		04657018272BCE12006EFFBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04657019272BCE20006EFFBA /* Home.swift */,
+				0465701B272BDA52006EFFBA /* Corners.swift */,
+				0465701D272BE570006EFFBA /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0465701F272BEB20006EFFBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04657020272BEB33006EFFBA /* Details.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0465701C272BDA52006EFFBA /* Corners.swift in Sources */,
 				04657006272BB48C006EFFBA /* ContentView.swift in Sources */,
+				04657021272BEB33006EFFBA /* Details.swift in Sources */,
+				0465701A272BCE20006EFFBA /* Home.swift in Sources */,
 				04657004272BB48C006EFFBA /* Complete_UI5App.swift in Sources */,
+				0465701E272BE570006EFFBA /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
